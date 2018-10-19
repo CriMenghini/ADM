@@ -54,8 +54,8 @@ ____
         - Run a statistical test that checks if the average price for kilometer in each borough is significally different from the average price in New York
         - Can you say that statistically significant differences, on the averages, hold among zones? In other words, are Taxis trip in some boroughs, on average, more expensive than others? 
     * The price per kilometer might depend on traffic the Taxi finds on its way. So we try to mitigate this effect:
-        - Likely, the duration of the trip says something about the city's congestion, especially if combinated with the distances. Thus, it might be a good idea to weight the price for kilometer using the average time needed to travel one kilometer:
-        ![equation](http://latex.codecogs.com/gif.latex?P%27%27_%7Bkm%7D%3D%5Cmu%2AP%27_%7Bkm%7D)   
+        - Likely, the duration of the trip says something about the city's congestion, especially if combinated with the distances. Thus, it might be a good idea to weight (![equation](http://latex.codecogs.com/gif.latex?w)) the price for kilometer using the average time needed to travel one kilometer:
+        ![equation](http://latex.codecogs.com/gif.latex?P%27%27_%7Bkm%7D%3Dw%2AP%27%27_%7Bkm%7D)   
         - Run the mean and the standard deviation of the new variable. Then plot the distribution. What do you see?
         - Run a statistical test that checks if the average *weighted* price for kilometer in each borough is significally different from the average price in New York
         - Can you say that statistically significant differences, on the averages, hold among zones? In other words, are Taxis trip in some boroughs, on average, more expensive than others?            
