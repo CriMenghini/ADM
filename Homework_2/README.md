@@ -49,12 +49,13 @@ ____
 ### Core Research Questions
 
 1. [__CRQ1__]: *Does the fare for kilometer change across NY's borough?* We want to discover whether the expenses of a user that enjoys Taxis in one zone is different from those that uses it in another one. 
-    * Considering the fare amount, we want to compute the kilometer's price for each trip:
+    * Considering the fare amount, we want to compute the price per kilometer for each trip ($P'_{km}$):
         - Run the mean and the standard deviation of the variable. Then plot the distribution. What do you see?
         - Run a statistical test that checks if the average price for kilometer in each borough is significally different from the average price in New York
         - Can you say that statistically significant differences, on the averages, hold among zones? In other words, are Taxis trip in some boroughs, on average, more expensive than others? 
     * The price per kilometer might depend on traffic the Taxi finds on its way. So we try to mitigate this effect:
-        - Likely, the duration of the trip says something about the city's congestion, especially if combinated with the distances. Thus, it might be a good idea to weight the price for kilometer using the average time needed to travel one kilometer
+        - Likely, the duration of the trip says something about the city's congestion, especially if combinated with the distances. Thus, it might be a good idea to weight the price for kilometer using the average time needed to travel one kilometer:
+        $P''_{km} = \mu *P'_{km}$
         - Run the mean and the standard deviation of the new variable. Then plot the distribution. What do you see?
         - Run a statistical test that checks if the average *weighted* price for kilometer in each borough is significally different from the average price in New York
         - Can you say that statistically significant differences, on the averages, hold among zones? In other words, are Taxis trip in some boroughs, on average, more expensive than others?            
