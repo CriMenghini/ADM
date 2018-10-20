@@ -9,7 +9,7 @@ ____
 Here you find the list of task you need to perform before running the analysis.
 
 1. Download [Yellow cabs data](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml).
-2. Due to the size of the file, you will experience that fit all this data in memory is hard. Above all, if you are able to load data in memory, it's gonna be hard to run any analysis. For these reasons, before starting we really encourage you to take a look at the *RQs* and afterwords think of a strategy to deal with data. 
+2. Due to the size of the file, you will experience that fit all this data in memory is hard. Above all, if you are able to load data in memory, it's gonna be hard to run any analysis. For these reasons, before starting we really encourage you to take a look at the *RQs* and afterwords think of a strategy to deal with data. Learn how to free your memory [here](https://teamtreehouse.com/community/how-to-delete-a-variable-in-python).
 * In order to do the analysis by borough you need to combine the *Yellow cabs data* with the dataset you find in `taxi_zone_lookup.csv`.
 * Observe the dataset:
     * Read the legend of each columns to understand the data: [link 1](http://www.nyc.gov/html/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)
