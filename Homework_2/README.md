@@ -65,6 +65,11 @@ To assess whether the difference among two distributions is [statistically signi
     
 2. [__CRQ2__]: *Visualize Taxis movements!* NYC is divided in many Taxis zones. For each yellow cab trip we know the zone the Taxi pick up and drop off the users. Let's visualize, on a [chropleth map](https://en.wikipedia.org/wiki/Choropleth_map), the number of trips that starts in each zone. Than, do another map to count the races that end up in the single zone. Comment your discoveries. To perform this task we use the library [`folium`](https://github.com/python-visualization/folium). You find some examples of chorophlet maps [here](https://nbviewer.jupyter.org/github/python-visualization/folium/blob/master/examples/Colormaps.ipynb) and [__here__](https://medium.com/@austinlasseter/using-folium-to-generate-a-simple-map-of-your-pandas-data-87ddc5d55f8d). The `Geojson` we use to trace the zones is `taxi_zones.json` in the Homework's repository.
 
+### Tips
+For any request:
+1. focus on a single month
+2. do the same analysis on the other months
+3. combine the results
 
 ### Bonus
 1. Repeat the entire analysis for other years highlighting the differences you find.
