@@ -47,9 +47,10 @@ ____
 5. [__RQ5__] *Does a long distance correlate with the duration of the trip on average?* Make a plot that show the dependence between distance and duration of the trip. Then compute the [Pearson Coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient), is it significant? Comment the results you obtain.
 
 ### Core Research Questions
+____
 #### What you need to look at before 
 To assess whether the difference among two distributions is [statistically significant](https://en.wikipedia.org/wiki/Statistical_significance), you should run a statistical test. Here useful link to get know of a statistical test: [link 1](https://towardsdatascience.com/inferential-statistics-series-t-test-using-numpy-2718f8f9bf2f), [link 2](https://machinelearningmastery.com/parametric-statistical-significance-tests-in-python/).
-
+____
 1. [__CRQ1__]: *Does the fare for kilometer change across NY's borough?* We want to discover whether the expenses of a user that enjoys Taxis in one zone is different from those that uses it in another one. 
     * Considering the fare amount, we want to compute the price per kilometer for each trip ![equation](http://latex.codecogs.com/gif.latex?P%27_%7Bkm%7D):
         - Run the mean and the standard deviation of the variable. Then plot the distribution. What do you see?
