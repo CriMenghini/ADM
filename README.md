@@ -14,4 +14,4 @@ Here you find the homeworks od ADM class of the MSc in Data Science @ La Sapienz
 ____
 
 ## Take a look at
-- `SubmissionPolicy.md`: that make clear the genera way of submitting homeworks
+- `EVALUATION.md`: how peer evaluation works
