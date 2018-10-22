@@ -68,9 +68,9 @@ __Positive__
 __Negative__
 >[__P1__]:  The textual description for the two first two tasks is minimal, but it describes properly the problem at hand,  for those I would hand in a 4.5,  but there's barely any comments for the third task, there's commented code left in the modules and there's even a TODO that's been left in there.  It is likely one of the member that didn't finish his task properly, but it is he job of the team to at least proofread the final version...
 
-[__P2__]:  For the code quality, utilization of libraries is done throughout and the code is concise in what it does. One annoyance  is the fact that head() or tail() wasn't used and the outputs are often longer than what they could be to show the result format.
+> [__P2__]:  For the code quality, utilization of libraries is done throughout and the code is concise in what it does. One annoyance  is the fact that head() or tail() wasn't used and the outputs are often longer than what they could be to show the result format.
 
-[__P3__]:  For the results, first task there's a clear error with the number of new cases in liberia for the last period... passing from ~2 new cases a month to ~2k should raise red flags. At least some explanation of why they kept it, especially in a data wrangling task. In the task two, they didn't re-index, they didn't split the scientific classification string or even clean it, it is clear that they went with the solution with the minimal possible effort. In the third task, it is hard to know exactly what was done ineach cases because of a lack of comments, but the result seem good overall.
+> [__P3__]:  For the results, first task there's a clear error with the number of new cases in liberia for the last period... passing from ~2 new cases a month to ~2k should raise red flags. At least some explanation of why they kept it, especially in a data wrangling task. In the task two, they didn't re-index, they didn't split the scientific classification string or even clean it, it is clear that they went with the solution with the minimal possible effort. In the third task, it is hard to know exactly what was done ineach cases because of a lack of comments, but the result seem good overall.
 
 Examples of bad reviews:
 > Good job
