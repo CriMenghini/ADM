@@ -14,8 +14,8 @@ Here you find the list of task you need to perform before running the analysis.
 2. Due to the size of the file, you will experience that fit all this data in memory is hard. Above all, if you are able to load data in memory, it's gonna be hard to run any analysis. For these reasons, before starting we really encourage you to take a look at the *RQs* and afterwords think of a strategy to deal with data. Learn how to free your memory [here](https://teamtreehouse.com/community/how-to-delete-a-variable-in-python).
 * In order to do the analysis by borough you need to combine the *Yellow cabs data* with the dataset you find in `taxi_zone_lookup.csv`. Take a look [here](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.join.html) and [here](https://pandas.pydata.org/pandas-docs/stable/merging.html).
 * Observe the dataset:
-    * Read the [legend] (http://www.nyc.gov/html/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf) of each columns to understand the data
-    * Read [something about Yellow Taxis in NYC] (http://www.nyc.gov/html/tlc/downloads/pdf/taxi_information.pdf) to make meaningful statements and comments.
+    * Read the [legend](http://www.nyc.gov/html/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf) of each columns to understand the data
+    * Read [something about Yellow Taxis in NYC](http://www.nyc.gov/html/tlc/downloads/pdf/taxi_information.pdf) to make meaningful statements and comments.
 * Get an [overview](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html) of the dataset, what are the variable types? May we need to change something?  E.g. some trips register distance 0, does it make sense?
 * Check the presence of NaN values and decide how to deal with them (do I exclude them from the analysis?)
 
