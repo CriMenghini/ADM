@@ -21,4 +21,10 @@ According to the policy presented by Aris, we encourage you to ask questions to 
 ## Office hours
 TAs will be available every Friday from 15 to 17 at the gazebos of DIAG, via Ariosto 25. During this time Valerio, Tommaso and Cristina will answer to your questions and will make clarifications about parts of the homework that do not sound clear to you.
 
+## TAs contacts
 
+|    TA    | Slack (preferable) | Email address            |
+|:--------:|:------------------:|--------------------------|
+| Cristina |        @patk       | menghini@dis.uniroma1.it |
+|  Tommaso |     @tlanciano     | tommaso@geosrl.net       |
+|  Valerio |  @Valerio Guarrasi | guarrasi1995@mail.com    |
