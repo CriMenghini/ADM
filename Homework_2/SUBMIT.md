@@ -7,11 +7,13 @@ Homework 2 is due on [28th October 2018](http://aris.me/index.php/data-mining-ds
 
 |   Delay  | Penalisation |
 |:--------:|:------------:|
-|  1-5 hours |     -0.5     |
-| 6-10 hours |      -1      |
-| 11-15 hours |      -2      |
-| 16-20 hours |      -3      |
-| 21-24 hours |      -4      |
+|  1 day |     -0.5     |
+| 2 days |      -1      |
+| 3 days |      -2      |
+| 4 days |      -3      |
+| 5 days |      -4      |
+
+If you have particular problems to respect the deadline, please contact Aris directly (putting @Cristina in cc) and explain your situation clearly mention your working group.
 
 
 The maximum score you can get is 5.
