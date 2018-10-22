@@ -28,3 +28,5 @@ TAs will be available every Friday from 15 to 17 at the gazebos of DIAG, via Ari
 | Cristina |        @patk       | menghini@dis.uniroma1.it |
 |  Tommaso |     @tlanciano     | tommaso@geosrl.net       |
 |  Valerio |  @Valerio Guarrasi | guarrasi1995@mail.com    |
+
+We will reply ASAP, on Slack the responsiveness is higher.
