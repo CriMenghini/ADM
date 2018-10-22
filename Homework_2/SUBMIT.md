@@ -30,7 +30,7 @@ __Note__ :
 ## What?
 
 The content of the repository is up to you. The mandatory files are:
-* `README.md`: a Markdown file that explains the content of your repository. This is an [example](https://github.com/CriMenghini/Wikipedia/tree/master/Mention). It is important that for each file/folder you say what it contains.
+* `README.md`: a Markdown file that explains the content of your repository. This is an [example](https://github.com/CriMenghini/Wikipedia/tree/master/Mention). It is important that for each file/folder you say what it contains. [Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) a cheatsheet to use Markdown.
 * `Homework_2.ipynb`: a tidy Notebook where you put the code and the comments of your pipeline. Here an [example](https://github.com/CriMenghini/ADA_Homeworks/blob/master/Homework_2/Hw_2.ipynb) of what it should look like. 
     - In general, for the sake of the tidiness of the Notebook, you are encouraged to save yout functions in external .py files that you [import](https://www.programiz.com/python-programming/modules) in the notebook.
     - Upload on GitHub the notebook with the cells already run
