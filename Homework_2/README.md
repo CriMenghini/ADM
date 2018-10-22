@@ -54,13 +54,12 @@ ____
 To assess whether the difference among two distributions is [statistically significant](https://en.wikipedia.org/wiki/Statistical_significance), you should run a statistical test. Here useful link to get know of a statistical test: [link 1](https://towardsdatascience.com/inferential-statistics-series-t-test-using-numpy-2718f8f9bf2f), [link 2](https://machinelearningmastery.com/parametric-statistical-significance-tests-in-python/).
 ____
 1. [__CRQ1__]: *Does the fare for kilometer change across NY's borough?* We want to discover whether the expenses of a user that enjoys Taxis in one zone is different from those that uses it in another one. 
-    * Considering the fare amount, we want to compute the price per kilometer ![equation](https://latex.codecogs.com/gif.latex?(P)) for each trip:
+    * Considering the fare amount, we want to compute the price per kilometer  ![equation](https://latex.codecogs.com/gif.latex?P) for each trip:
         - Run the mean and the standard deviation of the variable. Then plot the distribution. What do you see?
         - Run a statistical test that checks if the average price for kilometer in each borough is significantly different from the average price in New York
         - Can you say that statistically significant differences, on the averages, hold among zones? In other words, are Taxis trip in some boroughs, on average, more expensive than others? 
     * The price per kilometer might depend on traffic the Taxi finds on its way. So we try to mitigate this effect:
-        - Likely, the duration of the trip says something about the city's congestion, especially if combined with the distances. Thus, it might be a good idea to weight the price for kilometer using the average time needed to travel one kilometer ![equation](https://latex.codecogs.com/gif.latex?(T)):
-        ![equation](https://latex.codecogs.com/gif.latex?P^\prime&space;=&space;P&space;\cdot&space;T)   
+        - Likely, the duration of the trip says something about the city's congestion, especially if combined with the distances. It might be a good idea to weight the price for kilometer using the average time ![equation](https://latex.codecogs.com/gif.latex?T) needed to travel one kilometer. Thus, instead of ![equation](https://latex.codecogs.com/gif.latex?P), you can use ![equation](https://latex.codecogs.com/gif.latex?P^\prime&space;=&space;P&space;\cdot&space;T) 
         - Run the mean and the standard deviation of the new variable. Then plot the distribution. What do you see?
         - Run a statistical test that checks if the average *weighted* price for kilometer in each borough is significantly different from the average price in New York
         - Can you say that statistically significant differences, on the averages, hold among zones? In other words, are Taxis trip in some boroughs, on average, more expensive than others?            
