@@ -1,5 +1,5 @@
 # Homework 2 - How do Taxis move in NYC? 
-In this assignment we perform an analysis of Taxis in NYC. In particular, we are curious to answer to some specific *research* questions (__RQs__) that may help Taxi drivers in planning their movements throughout the city and the Taxi's users to have hints about the convenience of enjoying this service.
+In this assignment we perform an analysis of Taxis in NYC. In particular, we are curious to answer to some specific *research questions* (__RQs__) that may help Taxi drivers in planning their movements throughout the city and the Taxi's users to have hints about the convenience of enjoying this service.
 
 For this purpose we use the open data of Taxi's trips in NYC. In order to answer to the *RQs* we take into account the data related to Yellow cab for the year 2018.
 
@@ -12,12 +12,12 @@ Here you find the list of task you need to perform before running the analysis.
 
 1. Download [Yellow cabs data](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml) (2018).
 2. Due to the size of the file, you will experience that fit all this data in memory is hard. Above all, if you are able to load data in memory, it's gonna be hard to run any analysis. For these reasons, before starting we really encourage you to take a look at the *RQs* and afterwords think of a strategy to deal with data. Learn how to free your memory [here](https://teamtreehouse.com/community/how-to-delete-a-variable-in-python).
-* In order to do the analysis by borough you need to combine the *Yellow cabs data* with the dataset you find in `taxi_zone_lookup.csv`. Tip: [join](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.join.html), [here](https://pandas.pydata.org/pandas-docs/stable/merging.html).
+* In order to do the analysis by borough you need to combine the *Yellow cabs data* with the dataset you find in `taxi_zone_lookup.csv`. Take a look [here](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.join.html) and [here](https://pandas.pydata.org/pandas-docs/stable/merging.html).
 * Observe the dataset:
-    * Read the legend of each columns to understand the data: [link 1](http://www.nyc.gov/html/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)
-    * Read something about Yellow Taxis in NYC to make meaningful statements and comments, , [link 2](http://www.nyc.gov/html/tlc/downloads/pdf/taxi_information.pdf).
+    * Read the [legend] (http://www.nyc.gov/html/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf) of each columns to understand the data
+    * Read [something about Yellow Taxis in NYC] (http://www.nyc.gov/html/tlc/downloads/pdf/taxi_information.pdf) to make meaningful statements and comments.
 * Get an [overview](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html) of the dataset, what are the variable types? May we need to change something?  E.g. some trips register distance 0, does it make sense?
-* Check the presence of NaN values and decide how to deal with them (do I esclude the from the analysis?)
+* Check the presence of NaN values and decide how to deal with them (do I exclude them from the analysis?)
 
 ____ 
 
@@ -30,21 +30,21 @@ ____
 
 # General notes:
 * At the beginning of your analysis, decide and clearly state what borough you consider for running the analysis: the borough of departure or the arrival one.
-* When you are asked to run statistical test, pay attention to the assumptions that must hold to run it. E.g. do the sample distributions have a bell shape (visually is enough)?
-* For any  run statistical test you must provide the test hypothesis and clearly say if the null hypothesis is rejected or not.
+* When you are asked to run a statistical test, pay attention to the assumptions that must hold to run it. E.g. do the sample distributions have a bell shape? (Visually is enough!)
+* For any statistical test you run, you must provide the test hypothesis and clearly say if the null hypothesis is rejected or not.
 
 ____
 
 # Research questions
 
 ### Exploratory Data Analysis
-1. [__RQ1__]  *In what period of the year Taxis are used more?* Create a plot that, for each month, shows the average number of trips recorded each day. Due to the differences among New York zones, we want to visualize the same information for each boroughs. Do you notice any difference among them? Provide comments and plausible explanations about what you observe (*e.i. what is the month with the highest daily average?*). 
+1. [__RQ1__]  *In what period of the year Taxis are used more?* Create a plot that, for each month, shows the average number of trips recorded each day. Due to the differences among New York zones, we want to visualize the same information for each boroughs. Do you notice any difference among them? Provide comments and plausible explanations about what you observe (*e.g.: what is the month with the highest daily average?*). 
 
 2. [__RQ2__] *What are the time slots with more passengers?* Set your own time slots and discover which are those when Taxis drive the highest number of passengers overall New York and repeat the analysis for each borough. Provide the results through a visualization and comment them. 
 
 3. [__RQ3__] *Do the all trips last the same?* Let's put our attention on the distribution of trip's duration. Provide a plot for it and comment what you see. Run this analysis for NYC and for each borough (and obviously comment the results!). 
 
-4. [__RQ4__] *What is the most common way of payments?* Discover the way payments are executed in each borough and  visualize the number of payments for any possible means. Then run the [*Chi-squared test*](http://learntech.uwe.ac.uk/da/Default.aspx?pageid=1440) to see whether the method of payment is correlated to the borough. Then, comment the results.
+4. [__RQ4__] *What is the most common way of payments?* Discover the way payments are executed in each borough and visualize the number of payments for any possible means. Then run the [*Chi-squared test*](http://learntech.uwe.ac.uk/da/Default.aspx?pageid=1440) to see whether the method of payment is correlated to the borough. Then, comment the results.
 
 5. [__RQ5__] *Does a long distance correlate with the duration of the trip on average?* Make a plot that show the dependence between distance and duration of the trip. Then compute the [Pearson Coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient), is it significant? Comment the results you obtain.
 
@@ -54,13 +54,13 @@ ____
 To assess whether the difference among two distributions is [statistically significant](https://en.wikipedia.org/wiki/Statistical_significance), you should run a statistical test. Here useful link to get know of a statistical test: [link 1](https://towardsdatascience.com/inferential-statistics-series-t-test-using-numpy-2718f8f9bf2f), [link 2](https://machinelearningmastery.com/parametric-statistical-significance-tests-in-python/).
 ____
 1. [__CRQ1__]: *Does the fare for kilometer change across NY's borough?* We want to discover whether the expenses of a user that enjoys Taxis in one zone is different from those that uses it in another one. 
-    * Considering the fare amount, we want to compute the price per kilometer for each trip ![equation](http://latex.codecogs.com/gif.latex?P%27_%7Bkm%7D):
+    * Considering the fare amount, we want to compute the price per kilometer ![equation](https://latex.codecogs.com/gif.latex?(P)) for each trip:
         - Run the mean and the standard deviation of the variable. Then plot the distribution. What do you see?
         - Run a statistical test that checks if the average price for kilometer in each borough is significantly different from the average price in New York
         - Can you say that statistically significant differences, on the averages, hold among zones? In other words, are Taxis trip in some boroughs, on average, more expensive than others? 
     * The price per kilometer might depend on traffic the Taxi finds on its way. So we try to mitigate this effect:
-        - Likely, the duration of the trip says something about the city's congestion, especially if combined with the distances. Thus, it might be a good idea to weight (![equation](http://latex.codecogs.com/gif.latex?w)) the price for kilometer using the average time needed to travel one kilometer:
-        ![equation](http://latex.codecogs.com/gif.latex?P%27%27_%7Bkm%7D%3Dw%2AP%27%27_%7Bkm%7D)   
+        - Likely, the duration of the trip says something about the city's congestion, especially if combined with the distances. Thus, it might be a good idea to weight the price for kilometer using the average time needed to travel one kilometer ![equation](https://latex.codecogs.com/gif.latex?(T)):
+        ![equation](https://latex.codecogs.com/gif.latex?P^\prime&space;=&space;P&space;\cdot&space;T)   
         - Run the mean and the standard deviation of the new variable. Then plot the distribution. What do you see?
         - Run a statistical test that checks if the average *weighted* price for kilometer in each borough is significantly different from the average price in New York
         - Can you say that statistically significant differences, on the averages, hold among zones? In other words, are Taxis trip in some boroughs, on average, more expensive than others?            
@@ -72,9 +72,9 @@ ____
 
 ### Tips
 For any request:
-1. focus on a single month
-2. do the same analysis on the other months
-3. combine the results
+1. Focus on a single month, performing all your analysis over a single dataset.
+2. Repeat the same analysis on the other months.
+3. Combine the results!
 
 ### Bonus
 1. Repeat the entire analysis for other years (aggregating the results) then highlighting the differences you find among years.
