@@ -12,7 +12,7 @@ ____
 ## Before starting
 Here you find the list of task you need to perform before running the analysis.
 
-1. Download [Yellow cabs data](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml).
+1. Download [Yellow cabs data](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml) (2018).
 2. Due to the size of the file, you will experience that fit all this data in memory is hard. Above all, if you are able to load data in memory, it's gonna be hard to run any analysis. For these reasons, before starting we really encourage you to take a look at the *RQs* and afterwords think of a strategy to deal with data. Learn how to free your memory [here](https://teamtreehouse.com/community/how-to-delete-a-variable-in-python).
 * In order to do the analysis by borough you need to combine the *Yellow cabs data* with the dataset you find in `taxi_zone_lookup.csv`. Tip: [join](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.join.html), [here](https://pandas.pydata.org/pandas-docs/stable/merging.html).
 * Observe the dataset:
@@ -81,7 +81,7 @@ For any request:
 3. combine the results
 
 ### Bonus
-1. Repeat the entire analysis for other years highlighting the differences you find.
+1. Repeat the entire analysis for other years (aggregating the results) then highlighting the differences you find among years.
 2. Go further with the EDA (*Exploratory Data Analysis*) showing new interesting stuff about the dataset.
 3. Make nice visualization using libraries like [Bokeh](https://bokeh.pydata.org/en/latest/) and [Seaborn](https://seaborn.pydata.org/).
 
