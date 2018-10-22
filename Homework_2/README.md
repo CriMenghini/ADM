@@ -3,9 +3,7 @@ In this assignment we perform an analysis of Taxis in NYC. In particular, we are
 
 For this purpose we use the open data of Taxi's trips in NYC. In order to answer to the *RQs* we take into account the data related to Yellow cab for the year 2018.
 
-<p align="center">
-  <img src="https://www.brickunderground.com/sites/default/files/styles/blog_primary_image/public/blog/images/4859177053_c3fb190917_o.jpg" width="450">
-</p>
+![alt text](https://www.brickunderground.com/sites/default/files/styles/blog_primary_image/public/blog/images/4859177053_c3fb190917_o.jpg "Logo Title Text 1")
 
 ____
 
@@ -70,9 +68,7 @@ ____
     
 2. [__CRQ2__]: *Visualize Taxis movements!* NYC is divided in many Taxis zones. For each yellow cab trip we know the zone the Taxi pick up and drop off the users. Let's visualize, on a [chropleth map](https://en.wikipedia.org/wiki/Choropleth_map), the number of trips that starts in each zone. Than, do another map to count the races that end up in the single zone. Comment your discoveries. To perform this task we use the library [`folium`](https://github.com/python-visualization/folium). You find some examples of chorophlet maps [here](https://nbviewer.jupyter.org/github/python-visualization/folium/blob/master/examples/Colormaps.ipynb) and [__here__](https://medium.com/@austinlasseter/using-folium-to-generate-a-simple-map-of-your-pandas-data-87ddc5d55f8d). The `Geojson` we use to trace the zones is `taxi_zones.json` in the Homework's repository.
 
-<p align="center">
-  <img src="http://dylanbabbs.com/map-data-viz-design/header.png" width="450">
-</p>
+![alt text](http://dylanbabbs.com/map-data-viz-design/header.png "Logo Title Text 1")
 
 ### Tips
 For any request:
