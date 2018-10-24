@@ -14,7 +14,7 @@ The TAs will evaluate all the homeworks.
 * For each homework, each student reviews the assignment of 1 group
 * Your group will get 3 reviews + 1 (TAs)
 
-The homework you should review will be communicate through Slack. Once you have done with the reviews you will send it through a form where you will be ask to tell us the score of the group for each section and provide explanations about your choices.
+The homework you should review will be communicated through Slack. Once you have completed your review, you will submit it through a form where you will be ask to tell us the score of the group for each section and provide explanations about your choices.
 
 Since the way which you do the Peer evaluation __will be part__ of you final grade, here some example of good reviews:
 
