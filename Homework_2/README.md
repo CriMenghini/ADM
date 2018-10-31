@@ -53,15 +53,16 @@ ____
 #### What you need to look at before 
 To assess whether the difference among two distributions is [statistically significant](https://en.wikipedia.org/wiki/Statistical_significance), you should run a statistical test. Here useful link to get know of a statistical test: [link 1](https://towardsdatascience.com/inferential-statistics-series-t-test-using-numpy-2718f8f9bf2f), [link 2](https://machinelearningmastery.com/parametric-statistical-significance-tests-in-python/).
 ____
-1. [__CRQ1__]: *Does the fare for mile change across NY's borough?* We want to discover whether the expenses of a user that enjoys Taxis in one zone is different from those that uses it in another one. 
-    * Considering the fare amount, we want to compute the price per mile  ![equation](https://latex.codecogs.com/gif.latex?P) for each trip:
-        - Run the mean and the standard deviation of the variable. Then plot the distribution. What do you see?
-        - Run a statistical test that checks if the average price for mile in each borough is significantly different from the average price in New York
+1. [__CRQ1__]: *Does the fare for mile change across NY's borough?* We want to discover whether the expenses of a user that enjoys Taxis in one zone is different from those that uses it in another one.
+    * Considering the fare amount:
+		- Compute the price per mile ![equation](https://latex.codecogs.com/gif.latex?P) for each trip.
+        - Run the mean and the standard deviation of the new variable for each borough. Then plot the distribution. What do you see?
+        - Run the t-test among all the possible pairs of distribution of different boroughs.
         - Can you say that statistically significant differences, on the averages, hold among zones? In other words, are Taxis trip in some boroughs, on average, more expensive than others? 
     * The price per mile might depend on traffic the Taxi finds on its way. So we try to mitigate this effect:
-        - Likely, the duration of the trip says something about the city's congestion, especially if combined with the distances. It might be a good idea to weight the price for mile using the average time ![equation](https://latex.codecogs.com/gif.latex?T) needed to travel one mile in each specifich borough. Thus, instead of ![equation](https://latex.codecogs.com/gif.latex?P), you can use ![equation](https://latex.codecogs.com/gif.latex?P^\prime&space;=&space;P&space;\cdot&space;T), where ![equation](https://latex.codecogs.com/gif.latex?T) it's the average time of a trip in the borough of the observation considered.
-        - Run the mean and the standard deviation of the new variable. Then plot the distribution. What do you see?
-        - Run a statistical test that checks if the average *weighted* price for mile in each borough is significantly different from the average price in New York
+        - Likely, the duration of the trip says something about the city's congestion, especially if combined with the distances. It might be a good idea to weight the price for mile using the time ![equation](https://latex.codecogs.com/gif.latex?T) needed to complete the trip. Thus, instead of ![equation](https://latex.codecogs.com/gif.latex?P), you can use ![equation](https://latex.codecogs.com/gif.latex?P^\prime&space;=&space;P&space;\cdot&space;T), where ![equation](https://latex.codecogs.com/gif.latex?T) is the time needed to complete the trip.
+        - Run the mean and the standard deviation of the new variable for each borough. Then plot the distribution. What do you see?
+        - Run the t-test among all the possible pairs of new distribution of different boroughs.
         - Can you say that statistically significant differences, on the averages, hold among zones? In other words, are Taxis trip in some boroughs, on average, more expensive than others?            
     * Compare the results obtained for the price per mile and the weighted price for mile. What do you think about that?
     
