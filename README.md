@@ -12,6 +12,7 @@ ____
 
 ## Take a look at
 - `EVALUATION.md`: how peer evaluation works
+- `DELIVERY.md`: submitting policy
 
 ____
 
