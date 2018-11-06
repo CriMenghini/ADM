@@ -6,7 +6,7 @@ In order to deliver the Homework, you __MUST__ complete __ALL__ the following st
 
 The __entire group__ is responsible for these 2 steps. If at least one of this steps is not performed, we'll assume that the whole group will not deliver the homework.
 
-1) Fill the form where you declare your group's Github repository. This must be done __before__ 6th November at 6p.m. __N.b.__: we need __only one__ filled form per group. 
+1) Fill the [form](https://goo.gl/forms/PoxNuBIowIfD6we13) where you declare your group's Github repository. This must be done __before__ 6th November at 6p.m. __N.b.__: we need __only one__ filled form per group. 
 
 2) __Complete the homework!__ To check if the homework was submitted on time, we'll take into account the __last__ commit. Thus __do not__ make any commits after the deadline, unless you need more time to complete the tasks (remember that for delays the policy on [`SUBMIT.md`](https://github.com/CriMenghini/ADM-2018/blob/master/Homework_2/SUBMIT.md) will hold). 
 
