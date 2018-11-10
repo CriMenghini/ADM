@@ -5,9 +5,7 @@ here you find the homeworks of ADM class 2018 of the MSc in Data Science @ La Sa
 
 In particular, for each assignment, you find a sub directory that contains:
 
-- `README.md` that describes the task
-- `SUBMIT.md` that gives the submission specifics
-
+- `README.md` that describes the task, the deadline and the deliverables. You can also find the needed forms for the delivery!
 ____
 
 ## Take a look at
