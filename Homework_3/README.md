@@ -246,5 +246,5 @@ It __must not__ contain:
 ## Forms
 
 - [Github Repository Form](https://docs.google.com/forms/d/1qHtj1DF_0iFzQsqZMPVi43t4_yqe6RofWk_dWlgAdSU/edit)
-- Group Review Form [Available after the deadline]
-- Peer Review Form [Available after the deadline]
+- [Group Review Form](https://goo.gl/forms/JU45NcR0lIpjY12y2)
+- [Peer Review Form](https://goo.gl/forms/sAHDP3njeTwNe2nI2)
