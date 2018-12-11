@@ -9,7 +9,7 @@ For this purpose we use the Wikipedia graph released by the SNAP group.
 ## Before starting
 Here you find the list of tasks you need to perform before running the analysis.
 
-1.  Download  [Wikicat hyperlink graph](https://drive.google.com/file/d/1ghPJ4g6XMCUDFQ2JPqAVveLyytG8gBfL/view?usp=sharing).  It is a reduced version of the one you find on SNAP.
+1.  Download  [Wikicat hyperlink graph](https://drive.google.com/file/d/1ghPJ4g6XMCUDFQ2JPqAVveLyytG8gBfL/view?usp=sharing).  It is a reduced version of the one you find on SNAP. Every row is an edge, the two elements are the nodes (source and destination).
 2.  From [this](https://snap.stanford.edu/data/wiki-topcats.html) page download:
 	-  `wiki-topcats-categories.txt.gz`
 	-  `wiki-topcats-page-names.txt.gz`
