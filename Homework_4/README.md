@@ -60,8 +60,11 @@ There are 3 steps that you need to perform:
 Now do the same thing as before, but now the order of the characters must be put into account. Example: "AABA" != "AAAB".
 
 # Submit the homework
- ## When?
-Homework 3 is due on [10th December 2018 - 23:59:59](http://aris.me/index.php/data-mining-ds-2018). Any homework submitted after the deadline will be subjected to a penalisation with the following schema:
+
+## When?
+ 
+Homework 4 is due on [10th December 2018 - 23:59:59](http://aris.me/index.php/data-mining-ds-2018). Any homework submitted after the deadline will be subjected to a penalisation with the following schema:
+
  |   Delay  | Penalisation |
 |:--------:|:------------:|
 |  1 day |     -0.5     |
@@ -69,10 +72,13 @@ Homework 3 is due on [10th December 2018 - 23:59:59](http://aris.me/index.php/da
 | 3 days |      -2      |
 | 4 days |      -3      |
 | 5 days |      -4      |
+
  If you have particular problems to respect the deadline, please contact Aris directly (putting @Cristina in cc) and explain your situation clearly mention your working group.
  The maximum score you can get is 5.
- ## What?
+## What?
+
  The content of the repository is up to you. The mandatory files are:
+ 
 * `README.md`: a Markdown file that explains the content of your repository. This is an [example](https://github.com/CriMenghini/Wikipedia/tree/master/Mention). It is important that for each file/folder you say what it contains. [Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) a cheatsheet to use Markdown.
 * `Homework_4.ipynb`: a tidy Notebook where you put the code and the comments of your pipeline. Here an [example](https://github.com/CriMenghini/ADA_Homeworks/blob/master/Homework_2/Hw_2.ipynb) of what it should look like.
     - In general, for the sake of the tidiness of the Notebook, you are encouraged to save your functions in external .py files that you [import](https://www.programiz.com/python-programming/modules) in the notebook.
@@ -80,7 +86,9 @@ Homework 3 is due on [10th December 2018 - 23:59:59](http://aris.me/index.php/da
     - It might be possible that you do not see some plots. For this reason, we suggest you to put in the `README.md` a link that you create [here](http://nbviewer.jupyter.org/) just copying and paste the url of your notebook on GitHub.
  It __must not__ contain:
 * The datasets you used (thus you should clearly state in the readme what dataset you used, if any not in the homework description). That's because git allows you to push only dataset smaller of a max size. [Here](https://medium.com/@haydar_ai/learning-how-to-git-ignoring-files-and-folders-using-gitignore-177556afdbe3) a good Medium's post that tells you how to deal with files/directories you do not want to push on GitHub.
- ## Forms
+
+## Forms
+
  - [Github Repository Form](https://goo.gl/forms/jKJcuYp1xbyintM52)
-- Group Review Form [Available after the deadline]
-- Peer Review Form [Available after the deadline]
+- [Group Review Form](https://goo.gl/forms/LH6VhTwRH4w5I7322)
+- [Peer Review Form](https://goo.gl/forms/fVgTxHRvK4GXmBMH2)
