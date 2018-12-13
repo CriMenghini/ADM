@@ -14,7 +14,7 @@ Here you find the list of tasks you need to perform before running the analysis.
 	-  `wiki-topcats-categories.txt.gz`
 	-  `wiki-topcats-page-names.txt.gz`
 
-Note that there are some categories that we have removed from the graph; you may need to take that into account when you process your graph later.
+Note that there are some categories that we have removed from the graph; more precisely, you **must take into account all the categories that has a number of articles greater than 3500.**
 
 ## VERY VERY IMPORTANT
 
