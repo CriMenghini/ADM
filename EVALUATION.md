@@ -1,6 +1,7 @@
 # Evaluation policy
 
 The homeworks are evaluated respect to these perspectives:
+
 * [__P1__]: Description of your work
 * [__P2__]: Quality in terms of readability and efficiency of code
 * [__P3__]: Correctness of the results
