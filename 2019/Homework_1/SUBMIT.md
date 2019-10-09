@@ -33,7 +33,22 @@ __Note__ :
 The content of the repository is up to you. The mandatory files are:
 
 * `README.md`: a Markdown file that explains the content of your repository. This is an [example](https://github.com/CriMenghini/Wikipedia/tree/master/Mention). It is important that for each file/folder you say what it contains. [Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) a cheatsheet to use Markdown.
-* `script/`: a folder that gathers a script python for each exercise.
+* `scripts.py`: a .py file that contains any solution of the exercise you completed, with this structure:
+
+----------------------------
+
+**\# Name_Exercise_1**
+
+script_exercise_1
+
+...
+
+**\#Name_Last_Exercise**
+
+script_last_exercise
+
+----------------------------
+
 * `stamps/`: list screenshot that assess the successful exercises you did.
 
 It __must not__ contain:
