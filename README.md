@@ -26,8 +26,8 @@ Due to the fact that some of TAs work remotely and that you will have classes at
 |:--------:|:------------------:|--------------------------|
 | *(HTA)* Cristina **(US East Coast time)** |        @patk       | menghini@dis.uniroma1.it |
 |  *(HTA)* Tommaso **(Not always in Rome)** |     @tommaso     | tommaso@geosrl.net       |
-|  *(TA)* Dusica |  TBA |   dusica.stepic@gmail.com  |
+|  *(TA)* Dusica |  @Dusica |   dusica.stepic@gmail.com  |
 |  *(TA)* Alessandro |  @Ale | flaborea.alessandro@gmail.com    |
-|  *(TA)* Paolo |  TBA | gentile.pao@gmail.com    |
+|  *(TA)* Paolo |  @Paolo | gentile.pao@gmail.com    |
 
 We will reply ASAP, on Slack the responsiveness is higher.
