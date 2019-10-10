@@ -49,6 +49,8 @@ script_last_exercise
 
 ----------------------------
 
+Alternatively, you can also produce a Jupyter Notebook, where each cell contains an exercise.
+
 * `stamps/`: list screenshot that assess the successful exercises you did.
 
 It __must not__ contain:
