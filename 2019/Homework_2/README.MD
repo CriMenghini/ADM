@@ -85,14 +85,14 @@ Knowing all the different positions where events happen, let us be able to creat
         
 Here's an example of heatmap where are shown all the starting positions of the goals of Arsenal during the entire season.
     
-![alt text](https://github.com/tlancian/ADM2019-TA/blob/master/HW1/arsenal_goals.png)
+![alt text](https://github.com/CriMenghini/ADM/blob/master/2019/Homework_2/arsenal_goals.png)
 
 2. Considering only the match [**Juventus - Napoli** played on the 22 April 2018](https://www.google.com/search?safe=active&sxsrf=ACYBGNRXZ3i0a1dbj20pdoInsHEUjeYU4A%3A1570814249512&ei=KbmgXb_eHsaUkgX7vrmICA&q=juventus+napoli+2018&oq=juventus+napoli+2018&gs_l=psy-ab.3..0j0i7i30j0j0i7i30l3j0j0i7i30l2j0.4513.5598..6047...0.5..0.105.770.6j2......0....1..gws-wiz.......0i71j0i20i263j0i13.FoNdEGK6ZpY&ved=0ahUKEwj_luaK25TlAhVGiqQKHXtfDoEQ4dUDCAs&uact=5#sie=m;/g/11hcz2kzzt;2;/m/03zv9;tl;fp;1;;):
     * visualize with arrows the starting point and ending point of each pass done during the match by **Jorginho** and **Miralem Pjanic**. Is there a huge difference between the map with all the passes done and the one with only accurate passes? Comment the results and point out the main differences.
     
 Here there's an example of a map with arrows. 
 
-![alt text](https://github.com/tlancian/ADM2019-TA/blob/master/HW1/arrows.png)
+![alt text](https://github.com/CriMenghini/ADM/blob/master/2019/Homework_2/arrows.png)
 
 
 
