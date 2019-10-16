@@ -3,7 +3,7 @@
 In this section you find the instruction to submit your group assignment.
 
 ## When?
-Homework 2 is due on __27th October 2019 - 23:59:59__. Any homework submitted after the deadline will be subjected to a penalisation with the following schema:
+Homework 2 is due on __30th October 2019 - 23:59:59__. Any homework submitted after the deadline will be subjected to a penalisation with the following schema:
 
 |   Delay  | Penalisation |
 |:--------:|:------------:|
@@ -31,7 +31,9 @@ The content of the repository is up to you. The mandatory files are:
 
 * `README.md`: a Markdown file that explains the content of your repository. This is an [example](https://github.com/CriMenghini/Wikipedia/tree/master/Mention). It is important that for each file/folder you say what it contains. [Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) a cheatsheet to use Markdown.
 
-* `main.ipynb`: a Jupyter notebook that contains all the answers to your exercises. The notebook must be clear, complete and tidy. [Here](https://github.com/dusicastepic/ADMSecondHomework/blob/master/ADM_HW2_Full.ipynb) an example of a nice notebook from last year.
+* `main.ipynb`: a Jupyter notebook that contains all the answers to your exercises __about the football part__. The notebook must be clear, complete and tidy. [Here](https://github.com/dusicastepic/ADMSecondHomework/blob/master/ADM_HW2_Full.ipynb) an example of a nice notebook from last year.
+
+* `theory.ipynb`: a Jupyter notebook that contains the answer to the theoretical exercise.
 
 It __must not__ contain:
 
