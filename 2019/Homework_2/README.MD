@@ -96,6 +96,33 @@ Here there's an example of a map with arrows.
 
 
 
+### Theoretical Question
+
+You are given the recursive function splitSwap, which accepts an array a, an index i, and a length n.
+
+```
+function splitSwap(a, l, n):
+  if n <= 1:
+    return
+  splitSwap(a, l, n/2)
+  splitSwap(a, l+ n /2, n/2)
+  swapList(a, l, n)
+```
+The subroutine swapList is described here:
+
+```
+function swapList(a, l, n):
+  for i = 1 to n/2:
+    tmp = a[l + i]
+    a[l + i] = a[l + n/2 + i]
+    a[l + n/2 + i] = tmp
+```
+
+1. How much running time does it take to execute splitSwap(a, 0, n)? (We want a Big O analysis.)
+2. What does this algorithm do? Is it optimal? Describe the mechanism of the algorithm in details, we do not want to know only its final result.
+
+
+
 ### Bonus
 1. Repeat the entire analysis for other leagues (La Liga, Serie A, Bundesliga and Ligue 1), aggregating the results and highlighting the differences you find among the leagues.
 2. Make nice visualization using libraries like [Bokeh](https://bokeh.pydata.org/en/latest/) and [Seaborn](https://seaborn.pydata.org/).
