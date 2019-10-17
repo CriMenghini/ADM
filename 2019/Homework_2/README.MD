@@ -51,7 +51,7 @@ __General Setup__: *All the analysis requested from RQ1 to RQ5, must be performe
 
 2. [__RQ2__]  *Is there a home-field advantage?* It is generally believed that there is an underlying home field advantage in sport, i.e. an highest probability of winning of the home team. Let's check for this, and see whether the outcome of the game (win, draw, lose) is correlated to the playing side (home or away). For 5 different teams of Premier League, show the contingency table (_outcome_ x _side_) and perform the [*Chi-squared test*](http://learntech.uwe.ac.uk/da/Default.aspx?pageid=1440) to see whether they are correlated or not. State clearly the tested hypothesis and whether it is accepted or rejected. 
  
-3. [__RQ3__] *Which teams have, the youngest coaches?*  Rank all the teams by the age of their coach and show the 10 teams with the youngest coaches. Additionally, show the distirbutions of the ages of all coaches in Premier League, using a boxplot. (Hint: There's an attribute *birthDate*).
+3. [__RQ3__] *Which teams have the youngest coaches?*  Rank all the teams by the age of their coach and show the 10 teams with the youngest coaches. Remember that during a season a team could have more coaches, in that case pick the younger of them. Additionally, show the distirbutions of the ages of all coaches in Premier League, using a boxplot. (Hint: There's an attribute *birthDate*).
 
 4. [__RQ4__] Find the top 10 players with the highest ratio between completed passes and attempted passes. For this task, consider __all__ the different types of passes, and as specified in the [website](https://apidocs.wyscout.com/matches-wyid-events), a completed pass has tag 1801 (**accurate event**).
 
