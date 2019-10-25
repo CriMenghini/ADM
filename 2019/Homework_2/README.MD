@@ -112,7 +112,7 @@ The subroutine swapList is described here:
 
 ```
 function swapList(a, l, n):
-  for i = 1 to n/2:
+  for i = 0 to n/2:
     tmp = a[l + i]
     a[l + i] = a[l + n/2 + i]
     a[l + n/2 + i] = tmp
@@ -121,6 +121,7 @@ function swapList(a, l, n):
 1. How much running time does it take to execute splitSwap(a, 0, n)? (We want a Big O analysis.)
 2. What does this algorithm do? Is it optimal? Describe the mechanism of the algorithm in details, we do not want to know only its final result.
 
+**HINT:** Consider the scenario where len(a) and n are numbers that are a power of 2.
 
 
 ### Bonus
