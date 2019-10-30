@@ -196,20 +196,7 @@ ____
  
 You are given a string, *s*. Let's define a subsequence as the subset of characters that respects the order we find them in *s*. For instance, a subsequence of "DATAMINING" is "TMNN". Your goal is to **define and implement** an algorithm that finds the length of the longest possible subsequence that can be read in the same way forward and backwards. For example, given the string "DATAMININGSAPIENZA" the answer should be 7 (d**A**tam**ININ**gsap**I**enz**A**).
 
-## Bonus Step: Make a nice visualization!
-
-__IMPORTANT:__ This is a bonus step, thus it's not mandatory. You can get the maximum scoure also without doing this. We're taking into account this, only if the rest of the homework has been completed.
-
-The amount and complexity of information produced in science, engineering, business, and everyday human activity is increasing at tremendous rates. Creative and good visualizations not only present a visual interpretation of data, but do so by improving comprehension, communication, and decision making.
-
-For this task you should build a [**Photomosaic**](https://en.wikipedia.org/wiki/Photographic_mosaic) of Brad Pitt. A photomosaic is an image constituted by small images selected in a database of small images called **tiles**.
-
-Use as tiles the frames of the movies in which Brad Pitt has starred and "re-construct" his potrait using the below target image. You can find the frames of his movies in [this website](https://film-grab.com/?s=brad+pitt). You must crawl the website to obtain your image dataset.
-
-<p align="left">
-<img src="https://dailypost.ng/wp-content/uploads/2011/11/brad-pitt-2.jpg" height=520
-</p>
 
 
-You can choose whatever library you like, Internet is full of examples. Be creative and have fun!
+**Have fun!**
 
