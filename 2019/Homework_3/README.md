@@ -40,7 +40,10 @@ Now that all the movies' Wikipedia pages are stored on your laptop, it is time t
 For each Wikipedia Page you should get:
 
 1. Title
-2. First two paragraphs of the article. We will refer to them respectively as `intro` and `plot`.
+2. First two sections of the article. Refer to them respectively as `intro` and `plot`, no matter if they are effectively them, just because the general structure of a Wikipedia page of a film is this. In order to better understand this, please refer to the following figure:
+
+![Example Wikipedia](/Homework_3/wikipedia.png)
+
 3. The following informations from the **infobox**: film_name, director, producer, writer, starring, music, release date, runtime, country, language, budget.
 
 Those info has to be saved into different `.tsv` files of this structure:
