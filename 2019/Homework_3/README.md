@@ -199,7 +199,34 @@ ____
  
 You are given a string, *s*. Let's define a subsequence as the subset of characters that respects the order we find them in *s*. For instance, a subsequence of "DATAMINING" is "TMNN". Your goal is to **define and implement** an algorithm that finds the length of the longest possible subsequence that can be read in the same way forward and backwards. For example, given the string "DATAMININGSAPIENZA" the answer should be 7 (d**A**tam**ININ**gsap**I**enz**A**).
 
+## Bonus Step: Make a nice visualization!
 
+__IMPORTANT:__ This is a bonus step, thus it's not mandatory. You can get the maximum score also without doing this. We're taking into account this, only if the rest of the homework has been completed.
+
+In this task, we will start to take a look at **networks**! Network is one of the most powerful paradigma to represent relationships between entities, and they can be used in most research domains. In such moment, since you are going lately to explore a bit more the powerfulness and the beauty of such topic with Aris, we are asking you just to understand how to build a network, and to visualize it.
+
+A network is simply a representation of a set of entities, that are connected between them according to a specific criterion. More formally, a network *G* is defined over two different sets:
+
+- *V*, the set of the nodes (entities)
+- *E* the set of the edges (relationships)
+
+For instance, take a look at the following network:
+
+![Toy Network](/HW3/network.png)
+
+Here, the entities are represented by your beloved TAs, and each one of us is connected to some other if we share at least three different letters in our name.
+
+Your first network will be a [co-stardom network](https://en.wikipedia.org/wiki/Co-stardom_network), that we will build in the following way:
+
+- Insert a query in the search engine built in point 3. You will get as output a list of films, ranked according to your own criteria.
+
+- The set of the actors that starred in the first 10 films of your query result will be the set of nodes of your network. E.g.: *V* = [Brad Pitt, George Clooney, Matt Damon, Christian De Sica, Massimo Boldi...]
+
+- Create an edge between two actors, if and only if they have starred in at least **2** films together. E.g.: *E* = [(Brad Pitt, George Clooney), (Brad Pitt, Matt Damon), (George Clooney, Matt Damon), (Christian De Sica, Massimo Boldi), ...]
+
+- Visualize the resulting network. In order to deal with the creation and visualization of the network, make use of the library of Python `networkx`. Please, note that network visualization can often result in a very unclear plot, especially when the number of nodes is high. `networkx` has various tools in order to make a decent visualization, exploit them.
+
+The goal of this task, is to let you start get in touch with networks, since it will be the topic of one of the future homeworks. Try to make comments to the resulting network, according to your prior knowldege to this topic.
 
 **Have fun!**
 
