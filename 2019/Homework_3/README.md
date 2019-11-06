@@ -212,7 +212,7 @@ A network is simply a representation of a set of entities, that are connected be
 
 For instance, take a look at the following network:
 
-![Toy Network](/HW3/network.png)
+![Toy Network](/2019/Homework_3/network.png)
 
 Here, the entities are represented by your beloved TAs, and each one of us is connected to some other if we share at least three different letters in our name.
 
