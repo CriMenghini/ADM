@@ -3,7 +3,7 @@
 In this section you find the instruction to submit your group assignment.
 
 ## When?
-Homework 3 is due on __15th November 2019 - 23:59:59__. Any homework submitted after the deadline will be subjected to a penalisation with the following schema:
+Homework 3 is due on __17th November 2019 - 23:59:59__. Any homework submitted after the deadline will be subjected to a penalisation with the following schema:
 
 |   Delay  | Penalisation |
 |:--------:|:------------:|
