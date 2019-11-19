@@ -94,3 +94,8 @@ In this assignment, the goal is to find set of similar wines according to some c
 
 ### Bonus Clustering
 * Implement K-means in Map Reduce!
+
+
+## 4. K-means can go wrong!
+
+You might know that k-means performances are significantly conditioned by its initialization. Provide an example that shows that with wrong initialization, the cost of the solution produced by the k-means algorithm can be arbitrarily larger from the cost of the optimal solution. You can either code it, or explain it in a **clear** text file.
