@@ -35,6 +35,8 @@ The content of the repository is up to you. The mandatory files are:
 * [**Not mandatory**] `sorting_lib.py`: suggested python file that contains functions for task 2.
 * [**Not mandatory**] `clustering_lib.py`: suggested python file that contains functions for task 3.
 * [**Not mandatory**] `map_reduce_lib.py`: suggested python file that contains functions for Bonus Task.
+* [**Not mandatory**] `theoretical_lib.py`: suggested python file that contains functions for task 4.
+
 * [**Mandatory**] `main.ipynb`: a Jupyter notebook explaines choices you made throughout the homework. If you do not create the aforementioned libraries, you should include all functions in this file. The notebook must be clear, complete and tidy. [Here](https://github.com/dusicastepic/ADMSecondHomework/blob/master/ADM_HW2_Full.ipynb) an example of a nice notebook from last year. **Avoid** pushing on GitHub notebook that contain entire long printed list, otherwise we will not be able to open it.
 
 **[READ IT CAREFULLY]** It __must not__ contain:
