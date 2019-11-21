@@ -69,7 +69,7 @@ BloomFilter(passwords1, passwords2)
 
 Given a set of words, a common natural task is the one of sorting them in alphabetical order. It is something that you have for sure already done once in your life, using your own algorithm without maybe knowing it.
 
-In order to be everyone on the same page, we will refer to the rules defined [here](https://en.wikipedia.org/wiki/Alphabetical_order#Ordering_in_the_Latin_script). As for multi-word string, let stick with the first plicy proposed there.
+In order to be everyone on the same page, we will refer to the rules defined [here](https://en.wikipedia.org/wiki/Alphabetical_order#Ordering_in_the_Latin_script), subsection "Basic Order and Example". As for multi-word string, let stick with the first policy proposed in subsection "Treatment of multiword strings". Finally, we will use as alphabet the [ISO basic Latin alphabet](https://en.wikipedia.org/wiki/ISO_basic_Latin_alphabet).
 
 What you might know is that we can relate this task to a simple algorithm that runs in linear time: [Counting Sort](https://www.hackerearth.com/practice/algorithms/sorting/counting-sort/tutorial/). Counting Sort is based on a simple assumption: you know the range of the possible values of the instances you have to sort. In this exercise you are asked to perform Alphabetical Sort exploiting the algorithm of Counting Sort.
 
