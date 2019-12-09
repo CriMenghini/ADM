@@ -15,8 +15,8 @@ __IMPORTANT:__ In order to deal with graphs you can freely use libraries such as
 The first step, as always, is to download the data you will be working on. You can download the data to build the system [here](http://users.diag.uniroma1.it/challenge9/download.shtml). Download the files for the dataset named **CAL**.
   
   In particular, you will get the following three files containing the below-mentioned information:
-  * __Distance graph__ - file containing physical distances between each pair of nodes. Each line follows this structure: *(Id_Node1, Id_Node2, d(Id_Node1,Id_Node2))*, where d(x,y) is the physical distance between x and y.
-  * __Travel time graph__ - file containing time distances between each pair of nodes. Each line follows this structure: *(Node1, Node2, t(Id_Node1, Id_Node2))*, where t(x,y) is the time distance between x and y.
+  * __Distance graph__ - file containing physical distances between each pair of nodes. Each line follows this structure: *(Id_Node1, Id_Node2, d(Id_Node1,Id_Node2))*, where __d(x,y)__ is the physical distance between x and y.
+  * __Travel time graph__ - file containing time distances between each pair of nodes. Each line follows this structure: *(Node1, Node2, t(Id_Node1, Id_Node2))*, where __t(x,y)__ is the time distance between x and y.
   * __Node information file__  - file containing node coordinates. Each line follows this structure: *(Id_Node, Latitude, Longitude)*
 
 
