@@ -55,11 +55,11 @@ As a dummy example, a set of input could be {Colosseo, Piazza Venezia, Piazza de
  - A sequence of nodes _p = [p\_1, ..., p\_n]_
  - One of the following distances function: **t(x,y)**, **d(x,y)** or **network distance** (i.e. consider all edges to have weight equal to 1).
 
-Implement an algorithm that returns the shortest path that goes from _H_ to _p\_n_, and that visits **in order** the nodes in _p_.
+Implement an algorithm that returns the shortest __walk__ that goes from _H_ to _p\_n_, and that visits **in order** the nodes in _p_.
 
 Consider that:
 - The algorithm needs to handle the case that the graph is not connected, thus not all the nodes in _p_ are reachable from H. In such scenario, it is enough to let the program give in output the string "Not possible".
-- You can pass more than once on the same node _p\_i_, but you have to preserve order. E.g.: if you pass through _p\_2_ and you are going to _p\_3_, you can pass through _p\_10_, but once you will be in _p\_9_, you will have to go back to _p\_10_ as well.
+- Since we are dealing with walks, you can pass more than once on the same node _p\_i_, but you have to preserve order. E.g.: if you pass through _p\_2_ and you are going to _p\_3_, you can pass through _p\_10_, but once you will be in _p\_9_, you will have to go back to _p\_10_ as well.
 
 
  ### <i> Functionality 4 - Shortest Route </i>
@@ -70,12 +70,12 @@ Consider that:
  - A set of nodes _p = {p\_1, ..., p\_n}_
  - One of the following distances function: **t(x,y)**, **d(x,y)** or **network distance** (i.e. consider all edges to have weight equal to 1).
 
-Implement an algorithm that returns the shortest path that goes from _H_ to _p\_n_, and that visits the nodes in _p_.
+Implement an algorithm that returns the shortest __walk__ that goes from _H_ to _p\_n_, and that visits the nodes in _p_.
 
 Consider that:
 - The algorithm needs to handle the case that the graph is not connected, thus not all the nodes in _p_ are reachable from H. In such scenario, it is enough to let the program give in output the string "Not possible".
-- You can pass more than once on the same node _p\_i_
-- Since the problem’s complexity might be high, consider also to provide just an approximation/heuristic solution for the problem. 
+- Since we are dealing with walks, you can pass more than once on the same node _p\_i_.
+- Since the problem’s complexity is high, consider to provide just an approximation/heuristic solution for the problem. 
 
 
 
