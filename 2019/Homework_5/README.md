@@ -7,7 +7,7 @@ In this homework, you will build a system that provides users with information a
 * __Backend:__ where you need to develop efficient algorithms that define the *functionalities of the system*
 * __Frontend:__ where you provide *visualization for queries entered by the user*
 
-__IMPORTANT:__ In order to deal with graphs you can freely use libraries such as `networkx`, but when you are writing algorithms they have to be implemented by yourself.
+__IMPORTANT:__ In order to deal with visualization of graphs you can freely use libraries such as `networkx` or any other tool you choose, but when you are writing algorithm, they have to be implemented by yourself using proper data structures, __without any library that computes some steps of the algorithm for you__.
 
 
 ## 1. Data collection
