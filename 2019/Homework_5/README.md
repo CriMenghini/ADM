@@ -33,6 +33,8 @@ The goal of this part is the implementation of a unique system that has four dif
     
 Implement an algorithm (using proper data structures) that returns the set of nodes at distance <= _d_ from _v_, corresponding to _v_’s neighborhood.
 
+P.s. We are not referring to the graph's definition of neighbours, but we are asking you to find all the nodes at distance <= d from v and not only the ones directly connected to it.  
+
 
 
  ### <i> Functionality 2 - Find the smartest Network! </i>
