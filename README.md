@@ -24,10 +24,12 @@ Due to the fact that some of TAs work remotely and that you will have classes at
 
 |    TA    | Slack (preferable) | Email address            |
 |:--------:|:------------------:|--------------------------|
-| *(HTA)* Cristina **(US East Coast time)** |        @patk       | menghini@dis.uniroma1.it |
-|  *(HTA)* Tommaso **(Not always in Rome)** |     @tommaso     | tommaso@geosrl.net       |
-|  *(TA)* Dusica |  @Dusica |   dusica.stepic@gmail.com  |
-|  *(TA)* Alessandro |  @Ale | flaborea.alessandro@gmail.com    |
-|  *(TA)* Paolo |  @Paolo | gentile.pao@gmail.com    |
+| *(HTA)* Cristina **(US East Coast time)** |        @cristina       | menghini@diag.uniroma1.it |
+|  *(HTA)* Luca |     @Luca     | maiano@diag.uniroma1.it       |
+|  *(TA)* Francesco |  @francesco pezone |   pezone.1913202@studenti.uniroma1.it  |
+|  *(TA)* Alireza |  @Alireza Seifi1989 | alireza.seifi1989@gmail.com    |
+|  *(TA)* Lucia |  @lucia testa | testa.1764018@studenti.uniroma1.it    |
+|  *(TA)* Paolo |  @Paolo | paolomandica.p@gmail.com    |
+|  *(TA)* Silviu |  @Silviu | spac.1693569@studenti.uniroma1.it    |
 
-We will reply ASAP, on Slack the responsiveness is higher.
+We will reply ASAP, on Slack the responsiveness is higher. If you send us an e-mail, please start the object with "[ADM2020]".
