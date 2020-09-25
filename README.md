@@ -29,7 +29,7 @@ Due to the fact that some of TAs work remotely and that you will have classes at
 |  *(TA)* Francesco |  @francesco pezone |   pezone.1913202@studenti.uniroma1.it  |
 |  *(TA)* Alireza |  @Alireza Seifi1989 | alireza.seifi1989@gmail.com    |
 |  *(TA)* Lucia |  @lucia testa | testa.1764018@studenti.uniroma1.it    |
-|  *(TA)* Paolo |  @Paolo | paolomandica.p@gmail.com    |
+|  *(TA)* Paolo |  @Paolo | mandica.1898788@studenti.uniroma1.it    |
 |  *(TA)* Silviu |  @Silviu | spac.1693569@studenti.uniroma1.it    |
 
 We will reply ASAP, on Slack the responsiveness is higher. If you send us an e-mail, please start the object with "[ADM2020]".
