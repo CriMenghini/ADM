@@ -59,3 +59,7 @@ Create a plot that for each day of the week show the hourly average of visitors 
     - Plot the purchase rate of each category and show the conversion rate of each category in decreasing order.
 7. [**RQ7**] The Pareto principle states that for many outcomes roughly 80% of consequences come from 20% of the causes. Also known as 80/20 rule, in e-commerce simply means that most of your business, around 80%, likely comes from about 20% of your customers.
     - Prove that the pareto principle applies to your store.
+
+
+### Bonus points
+For this homework, you are required to work with all data in the 2019-October and 2019-November range. An extension of the dataset is available at [this link](https://drive.google.com/drive/folders/1Nan8X33H8xrXS5XhCKZmSpClFTCJsSpE). It is not necessary to use the extension for this homework, however, if you decide to use it, we will take it into account in the final evaluation.
