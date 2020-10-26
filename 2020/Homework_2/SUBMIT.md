@@ -36,9 +36,6 @@ The content of the repository is up to you. The mandatory files are:
 
 * `main.ipynb`: a Jupyter notebook that contains all the answers to your exercises __about the football part__. The notebook must be clear, complete and tidy. [Here](https://github.com/dusicastepic/ADMSecondHomework/blob/master/ADM_HW2_Full.ipynb) an example of a nice notebook from last year.
 
-It __must not__ contain:
-
-* The datasets you used (thus you should clearly state in the readme what dataset you used, if any not in the homework description). That's because git allows you to push only dataset smaller of a max size. [Here](https://medium.com/@haydar_ai/learning-how-to-git-ignoring-files-and-folders-using-gitignore-177556afdbe3) a good Medium's post that tells you how to deal with files/directories you do not want to push on GitHub.
 
 ## Post Homework
 
