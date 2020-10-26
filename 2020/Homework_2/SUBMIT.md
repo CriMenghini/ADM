@@ -19,7 +19,7 @@ If you have particular problems to respect the deadline, please contact Aris dir
 The maximum score you can get is 5.
 
 ## Where?
-1. Each group must create __only one__ GitHub repository: follow these [steps](https://github.com/CriMenghini/ADM-HW4/blob/master/README.md) (replace ADM-HW4 with the name you give to the repository). Once created the repository, in order to let us know which is your official repository, compile this.
+1. Each group must create __only one__ GitHub repository: follow these [steps](https://github.com/CriMenghini/ADM-HW4/blob/master/README.md) (replace ADM-HW4 with the name you give to the repository). 
 
 2. Before the deadline you can push in the repository whatever you want. Any push after the deadline will be taken into account for the penalisation.
 
