@@ -3,7 +3,7 @@
 In this section you find the instruction to submit your group assignment.
 
 ## When?
-Homework 2 is due on [9th November 2020 - 23:59:59](http://aris.me/index.php/data-mining-ds-2018). Any homework submitted after the deadline will be subjected to a penalisation with the following schema:
+Homework 2 is due on [9th November 2020 - 23:59:59](http://aris.me/index.php/data-mining-ds-2020). Any homework submitted after the deadline will be subjected to a penalisation with the following schema:
 
 |   Delay  | Penalisation |
 |:--------:|:------------:|
@@ -33,29 +33,21 @@ __Note__ :
 The content of the repository is up to you. The mandatory files are:
 
 * `README.md`: a Markdown file that explains the content of your repository. This is an [example](https://github.com/CriMenghini/Wikipedia/tree/master/Mention). It is important that for each file/folder you say what it contains. [Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) a cheatsheet to use Markdown.
-* `scripts.py`: a .py file that contains any solution of the exercise you completed, with this structure:
 
-----------------------------
-
-**\# Name_Exercise_1**
-
-script_exercise_1
-
-...
-
-**\#Name_Last_Exercise**
-
-script_last_exercise
-
-----------------------------
-
-Alternatively, you can also produce a Jupyter Notebook, where each cell contains an exercise.
-
-* `stamps/`: list screenshot that assess the successful exercises you did.
+* `main.ipynb`: a Jupyter notebook that contains all the answers to your exercises __about the football part__. The notebook must be clear, complete and tidy. [Here](https://github.com/dusicastepic/ADMSecondHomework/blob/master/ADM_HW2_Full.ipynb) an example of a nice notebook from last year.
 
 It __must not__ contain:
 
 * The datasets you used (thus you should clearly state in the readme what dataset you used, if any not in the homework description). That's because git allows you to push only dataset smaller of a max size. [Here](https://medium.com/@haydar_ai/learning-how-to-git-ignoring-files-and-folders-using-gitignore-177556afdbe3) a good Medium's post that tells you how to deal with files/directories you do not want to push on GitHub.
+
+## Post Homework
+
+Each member of the team will need to fill other 2 forms, that will be published after the deadline of the homework:
+
+1. [Individual Feedback (to be opened)](): a form to express how you worked with your group, and who did what.
+2. [Peer Review (to be opened)](): you will receive an email, containing an homework that you have to review. You will find the guidelines of the review in the form.
+
+You will have __5 days (120 hours)__ to fill the two forms. They are __mandatory__, i.e. we will not grade your homework if you won't fill all the forms.
 
 
 
