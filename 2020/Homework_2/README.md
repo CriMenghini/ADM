@@ -54,9 +54,9 @@ ____
    - Using the function you just created, find the top 3 brands that have suffered the biggest losses in earnings between one month and the next, specifing bothe the loss percentage and the 2 months (e.g., brand_1 lost 20% between march and april).
 5. [**RQ5**] *In what part of the day is your store most visited?* Knowing which days of the week or even which hours of the day shoppers are likely to visit your online store and make a purchase may help you improve your strategies. 
 Create a plot that for each day of the week show the hourly average of visitors your store has.
-6. [**RQ6**] The conversion rate of a product is given by the purchase rate over the number of times the product has been visited. What's the conversion rate of your online store?
+6. [**RQ6**] The conversion rate of a product is given by the number of times a product has been bought over the number of times it has been visited. What's the conversion rate of your online store?
     - Find the overall conversion rate of your store.
-    - Plot the purchase rate of each category and show the conversion rate of each category in decreasing order.
+    - Plot the number of purchases of each category and show the conversion rate of each category in decreasing order.
 7. [**RQ7**] The Pareto principle states that for many outcomes roughly 80% of consequences come from 20% of the causes. Also known as 80/20 rule, in e-commerce simply means that most of your business, around 80%, likely comes from about 20% of your customers.
     - Prove that the pareto principle applies to your store.
 
