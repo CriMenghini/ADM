@@ -26,7 +26,7 @@ The maximum score you can get is 5.
 __Note__ :
 
 * The state of the repository at deadline time corresponds to your submission.
-* __[IMPORTANT]__ be sure to compile this ([form](https://forms.gle/rtMxyn7RG81g2VJ69)).
+* __[IMPORTANT]__ be sure to compile this [form](https://forms.gle/rtMxyn7RG81g2VJ69).
 
 ## What?
 
