@@ -229,6 +229,28 @@ Since we want the **cumulative** number of page, the y-axis value of each book i
 **[NOTE]** Genrally, the book of a series is indicated as: title #number of the book in the series (e.g., The Hunger Games #1). 
 Sometimes you will find the entire book serie as one book (e.g., The Hunger Games #1-3). You only retain the first type. 
 
+## 5. Theoretical Question
+
+You are given a string written in english capital letters, for example
+S="CADFECEILGJHABNOPSTIRYOEABILCNR."
+You are asked to find the maximum length of a subsequence of characters that is in alfabetical order. For example, here a subsequence of characters in alphabetical order is the "ACEGJSTY":
+"C**A**DFE**CE**IL**GJ**HABNOFP**ST**IR**Y**OEABILCNR."
+Among all the possible such sequences, you are asked to find the one that is the longest.
+
+Define as X[i] = "the length of the longest sequence of characters in alfabetical order up to the *i*-th character". One can prove that
+
+```X[i] = 1 + max{X[j]; j = 0, ..., i-1, such that S[j]<S[i]}```
+
+```X[i] = 1, if there does not exist such a j```.
+
+1. Write a recursive program that, given a string, computes the length of the subsequence of maximum length that is in alphabetical order. Try some examples. Are the examples of short strings correct? Can you find examples that your algorithm does not terminate in reasonable time?
+2. Show that the running time of the algorithm is exponential.
+3. Write a program that computes the length of the subsequence of maximum length, using dynamic programming.
+4. What is its runtime complexity?
+
+**BONUS**: Prove that the formula for X[i] given above is correct.
+
 
 **Have fun!**
+
 
