@@ -131,7 +131,7 @@ The final output of the query must return, if present, the following information
 __Example Output__:
 
 | bookTitle | Plot | Url |
-|:-----------------------------:|:-----:|:-----------------------------------------------------------:|
+|:-----------------------------:|:-----:|:------------------------------------------------------------:|
 | The Hunger Games | ... | https://www.goodreads.com/book/show/2767052-the-hunger-games |
 | Harry Potter and the Goblet of Fire | ... | https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of_Fire |
 | Catching Fire | ... | https://www.goodreads.com/book/show/6148028-catching-fire |
