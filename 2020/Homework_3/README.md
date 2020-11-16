@@ -248,7 +248,8 @@ Define as X[i] = "the length of the longest sequence of characters in alfabetica
 3. Write a program that computes the length of the subsequence of maximum length, using dynamic programming.
 4. What is its runtime complexity?
 
-**BONUS**: Prove that the formula for X[i] given above is correct.
+### BONUS
+Prove that the formula for X[i] given above is correct.
 
 
 **Have fun!**
