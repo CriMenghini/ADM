@@ -229,7 +229,7 @@ Since we want the **cumulative** number of page, the y-axis value of each book i
 **[NOTE]** Genrally, the book of a series is indicated as: title #number of the book in the series (e.g., The Hunger Games #1). 
 Sometimes you will find the entire book serie as one book (e.g., The Hunger Games #1-3). You only retain the first type. 
 
-## 5. Theoretical Question
+## 5. Algorithmic Question
 
 You are given a string written in english capital letters, for example
 S="CADFECEILGJHABNOPSTIRYOEABILCNR."
@@ -237,7 +237,7 @@ You are asked to find the maximum length of a subsequence of characters that is 
 "C**A**DFE**CE**IL**GJ**HABNOFP**ST**IR**Y**OEABILCNR."
 Among all the possible such sequences, you are asked to find the one that is the longest.
 
-Define as X[i] = "the length of the longest sequence of characters in alfabetical order up to the *i*-th character". One can prove that
+Define as X[i] = the length of the longest sequence of characters in alphabetical order that terminates at the *i*-th character". One can prove that
 
 ```X[i] = 1 + max{X[j]; j = 0, ..., i-1, such that S[j]<S[i]}```
 
