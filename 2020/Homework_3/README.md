@@ -237,7 +237,7 @@ You are asked to find the maximum length of a subsequence of characters that is 
 "C**A**DFE**CE**IL**GJ**HABNOFP**ST**IR**Y**OEABILCNR."
 Among all the possible such sequences, you are asked to find the one that is the longest.
 
-Define as X[i] = the length of the longest sequence of characters in alphabetical order that terminates at the *i*-th character". One can prove that
+Define as X[i] = "the length of the longest sequence of characters in alphabetical order that terminates at the *i*-th character". One can prove that
 
 ```X[i] = 1 + max{X[j]; j = 0, ..., i-1, such that S[j]<S[i]}```
 
