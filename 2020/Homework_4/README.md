@@ -52,6 +52,7 @@ We remind you that we consider and grade the bonuses only if you complete the en
 
 ## 3. Algorithmic question
 You are given an array with A with n integer numbers.
-Let s = min{ A[1], ..., A[n] } and b = max { A[1], ..., A[n] }.
-Let r = b - s
+- Let s = min{ A[1], ..., A[n] } and b = max { A[1], ..., A[n] }.
+- Let r = b - s
+
 Prove that we can sort A in time O(n + r).
