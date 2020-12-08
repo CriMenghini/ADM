@@ -50,7 +50,7 @@ We remind you that we consider and grade the bonuses only if you complete the en
 1) Implement the k-means algorithm using MapReduce.
 2) Dynamically visualize the clustering evolution after each iteration (use a sample of the product belonging to each cluster to do it!)
 
-## 3. Computational complexity
+## 3. Algorithmic question
 You are given an array with A with n integer numbers.
 Let s = min{ A[1], ..., A[n] } and b = max { A[1], ..., A[n] }.
 Let r = b - s
