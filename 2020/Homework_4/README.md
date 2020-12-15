@@ -4,7 +4,7 @@
 
 ## 1. Hashing
 
-For this task, we are dealing with hashing algorithms. In particular you will implement **hash functions** and an algorithm called [***HyperLogLog***](https://medium.com/@raghavan99o/hyperloglog-algorithm-part-ii-the-loglog-algorithm-6cdf33132331) (HLL).
+For this task, we are dealing with hashing algorithms. In particular you will implement **hash functions** and an algorithm called [***HyperLogLog***](https://medium.com/@raghavan99o/hyperloglog-algorithm-part-ii-the-loglog-algorithm-6cdf33132331) (HLL). [This reference](https://pangaj.github.io/HyperLogLog/) may be useful also.
 
 There are many scenarios where we need to know (or at least estimate) the cardinality of a dataset, e.g., statistical purposes.  Consider the need to determine the number of distinct people visiting a website. For famous social media (e.g., Facebook, Instagram) or e-commerce sites (e.g., Amazon, ASOS), this task could be computationally expensive because of the large number of users. Doing this with traditional methods (e.g., SQL query) on a dataset as massive as the sites mentioned above could take days and large amounts and memory. Is it not a better idea to approximately estimate the number of distinct users? HyperLogLog is an algorithm that allows us to make decent guesses when counting vast numbers of distinct elements, with very little computation or memory required.
 
@@ -13,7 +13,7 @@ There are many scenarios where we need to know (or at least estimate) the cardin
 ### Your task
 Download the datasets [here](https://drive.google.com/file/d/19SD2db0dH2A0QLJOmBHnkbqOX6SbERcY/view?usp=sharing). You will find a `hash.txt` file.
 
-1. Implement your hash functions by scratch, *no ready-made hash functions are allowed*. Read the class material and search the internet if you need to. As a reference, it may be useful to look at the description of hash functions in the [book](http://www.mmds.org/) or [here](http://aris.me/contents/teaching/data-mining-ds-2020/resources/DPV-universal-hashing.pdf).
+1. Implement your hash functions from scratch, *no ready-made hash functions are allowed*. Read the class material and search the internet if you need to. As a reference, it may be useful to look at the description of hash functions in the [book](http://www.mmds.org/) or [here](http://aris.me/contents/teaching/data-mining-ds-2020/resources/DPV-universal-hashing.pdf).
 2. Use your hash function, implement a HyperLogLog structure. 
 3. Read the dataset sequentially and add it to your HyperLogLog.
 5. At the end *you have to provide*:
