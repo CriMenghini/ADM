@@ -3,7 +3,7 @@
 In this section you find the instruction to submit your group assignment.
 
 ## When?
-Homework 5 is due on [7th Jenuary 2021 - 23:59:59](http://aris.me/index.php/data-mining-ds-2020). Any homework submitted after the deadline will be subjected to a penalisation with the following schema:
+Homework 5 is due on [7th January 2021 - 23:59:59](http://aris.me/index.php/data-mining-ds-2020). Any homework submitted after the deadline will be subjected to a penalisation with the following schema:
 
 |   Delay  | Penalisation |
 |:--------:|:------------:|
