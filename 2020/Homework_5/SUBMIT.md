@@ -43,6 +43,14 @@ It __must not__ contain:
 * The datasets you used (thus you should clearly state in the readme what dataset you used, if any not in the homework description). That's because git allows you to push only dataset smaller of a max size. [Here](https://medium.com/@haydar_ai/learning-how-to-git-ignoring-files-and-folders-using-gitignore-177556afdbe3) a good Medium's post that tells you how to deal with files/directories you do not want to push on GitHub.
 
 
+## Post Homework
+
+Each member of the team will need to fill other 2 forms, that will be published after the deadline of the homework:
+
+1. [Individual Feedback](https://forms.gle/BUEWRUCwtDiF8TWL6): a form to express how you worked with your group, and who did what.
+
+You will have __5 days (120 hours)__ to fill the two forms. They are __mandatory__, i.e. we will not grade your homework if you won't fill all the forms.
+
 
 
 
